@@ -1,0 +1,398 @@
+/* KAY KREWSON g48_Seattle */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+   ===============
+   CUSTOM STYLES
+   ===============
+*/
+
+body {
+   background: #9bb0fa; /* periwinkle blue */
+   color: #bcbdbc;
+   font: 400 16px/22px "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main {
+   background-color: #464a7d; /* background blue */
+   margin-bottom: 0;
+}
+aside {
+   background: #464a7d; /* background blue */
+}
+
+/* note to self: this could be a good color to use somewhere #9e9ebf*/
+article {
+   display: inline-block;
+   width: 70%;
+   padding: 12px 0px 0 32px;
+   background: #464a7d; /* background blue */
+   text-align: justify;
+   color: #bcbdbc; /* pale putty gray */
+   font: 400 18px/28px "Raleway", sans-serif;
+}
+.first-character {
+   font-size: 32px;
+   letter-spacing: 1.5px;
+   vertical-align: sub;
+}
+.float-container {
+   float: right;
+   width: 30%;
+   margin: 0;
+   padding: 12px 0 0 0;
+   background: #464a7d; /* background blue */
+   text-align: center;
+}
+figure {
+   margin: 0;
+   padding: 0;
+   background: #464a7d; /* background blue */
+   text-align: center;
+}
+figcaption {
+   font: 400 18px/22px "Coming Soon", sans-serif;
+   text-align: center;
+   color: #bcbdbc; /* pale putty gray */
+}
+.animated-gif {
+   margin: auto;
+   padding: 0;
+   background: #464a7d; /* background blue */
+   text-align: center;
+}
+img {
+   box-shadow: 10px 10px 5px #2e3052; /* darker blue */
+}
+img:hover {
+    opacity: .5;
+}
+
+/*
+   ===========
+   PHOTOS
+   ===========
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.grid {
+   margin: 0 auto;
+   width: 960px;
+   background: #464a7d; /* background blue */
+}
+.row {
+   min-width: 960px;
+   padding: 8px 0 44px 0;
+   background: #464a7d; /* background blue */
+}
+.photo-container {
+   display: inline-block;
+   vertical-align: top;
+   width: 33.33%;
+   padding: 0 15px 0 15px;
+}
+.vacation-photo {
+   border-radius: 5px;
+   margin-bottom: 22px;
+   max-width: 100%;
+   box-shadow: 10px 10px 5px #2e3052; /* darker blue */
+   }
+.single-photo-container{
+   float: right;
+   width: 30%;
+   margin: 0;
+   padding: 12px 0 0 0;
+   background: #464a7d; /* background blue */
+   text-align: center;
+}
+.single-photo {
+   margin: auto;
+   padding: 0;
+   background: #464a7d; /* background blue */
+   vertical-align: center;
+   border-radius: 20px;
+   box-shadow: 10px 10px 5px #2e3052; /* darker blue */
+   text-align: center;
+}
+.random-photo {
+   margin: 24px 12px 12px 12px;
+   padding: 0;
+   background: #464a7d; /* background blue */
+   border: 20px solid #fff;
+   border-radius: 20px
+   text-align: center;
+}
+.future {
+   display: inline-block;
+   width: 70%;
+}
+.paint-the-background {
+   min-width: 960px;
+   padding: 8px 0 44px 0;
+   background: #464a7d; /* background blue */
+}
+/*
+   ===========
+   CLEARFIX
+   ===========
+*/
+
+.group:before,
+.group:after {
+   content: "";
+   display: table;
+}
+.group:after {
+   clear: both;
+}
+.group {
+   clear: both;
+}
+
+/*
+   ===========
+   TYPOGRAPHY
+   ===========
+*/
+
+h1 {
+   display: inline-block;
+   background-color: #9bb0fa; /* periwinkle blue */
+   padding: 25px 15px 0px 15px;
+   margin: 0;
+   text-transform: uppercase;
+   text-align: center;
+   color: #464a7d; /* background blue */
+   font: 300 48px/48px Raleway, sans-serif;
+   letter-spacing: 8px;
+}
+h2 {
+   display: block;
+   width: 100%;
+   padding: 18px 0px 18px 0px;
+   background: #fff;
+   text-align: center;
+   vertical-align: center;
+   color: #2e3052; /* darker blue */
+   font: 400 20px/28px "Raleway", sans-serif;
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+p {
+   margin-bottom: 22px;
+}
+strong{
+   font-weight: 600;
+}
+cite,
+em {
+   font-style: italic;
+}
+
+/*
+   ========
+    LINKS
+   ========
+*/
+
+a:link {
+   color: #fff;
+   text-decoration: none;
+   background: inherit;
+}
+a:visited {
+      color: #fff;
+   }
+a:hover {
+   color: #bc884e; /* pumpkin color */
+   font-weight: bold;
+}
+
+
+/* Decided not to use this, but it was kind of cool looking
+.external-links {
+   color: #2E3052;
+   font: 600 18px/22px "Raleway", sans-serif;
+   background-color: rgba(188, 189, 188, 0.5);
+   background: -webkit-radial-gradient(#bcbdbc, #464a7d);
+   background: -moz-radial-gradient#bcbdbc, #464a7d);
+   background: radial-gradient(#bcbdbc, #464a7d);
+   padding-right: .5em;
+   padding-left: .5em;
+   }
+   */
+.external-links {
+      text-shadow: 0 0 5px #fff;
+      font: 400 18px/22px "Raleway", sans-serif;
+   }
+.external-links:hover {
+   color: #bc884e; /* pumpkin color*/
+   text-shadow: 0 0 5px #bc884e; /* pumpkin color */
+   font: 400 18px/22px "Raleway", sans-serif;
+}
+
+/*
+   ==========
+   BUTTONS - May not use these
+   ==========
+*/
+
+.btn {
+   border-radius: 5px;
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+   font-weight: 400;
+   letter-spacing: .5px;
+   margin: 0;
+   text-transform: uppercase;
+}
+.btn-alt {
+   border: 1px solid #fff;
+   padding: 10px 30px;
+}
+.btn-alt:hover {
+   background: #fff;
+   color: #648880;
+}
+
+/*
+   ========
+   HEADER
+   ========
+*/
+header {
+   display: block;
+   background-color: #9bb0fa; /* periwinkle blue */
+   padding: 24px 0 0 0;
+   margin: 0;
+   text-transform: uppercase;
+   text-align: center;;
+   color: #464a7d; /* background blue */
+   font: 300 48px/48px Raleway, sans-serif;
+   letter-spacing: 8px;
+}
+.my-name-embellishment{
+   font-size: 18px;
+   display: inline;
+   vertical-align: middle;
+}
+.transition {
+   display: block;
+   width: 100%;
+   background: #9bb0fa; /* periwinkle */
+   background: -webkit-linear-gradient(#fff, #9bb0fa, #464a7d); /* white to periwinkle to background blue */
+   background: -moz-linear-gradient(#fff, #9bb0fa, #464a7d); /* white to periwinkle to background blue */
+   background: linear-gradient(#fff, #9bb0fa, #464a7d); /* white to periwinkle to background blue */
+   line-height: 22px;
+}
+/*
+   ========
+   FOOTER
+   ========
+*/
+
+footer {
+   display: block;
+   background: #9bb0fa; /* periwinkle */
+   background: -webkit-linear-gradient(#464a7d, #9bb0fa); /* background blue to periwinkle */
+   background: -moz-linear-gradient(#464a7d, #9bb0fa); /* background blue to periwinkle*/
+   background: linear-gradient(#464a7d, #9bb0fa); /* background blue to periwinkle */
+   margin: 0;
+   padding: 16px 0 0 0;
+   text-align: center;
+   line-height: 88px;
+}
+.footer-quotation {
+   display: block;
+   color: rgba(256, 256, 256, .5); /* white */
+   font: italic 400 18px/88px Raleway, sans-serif;
+   letter-spacing: .5px;
+}
+
+/*
+   ========
+   NAVIGATION
+   ========
+*/
+.nav {
+   background: #9bb0fa; /* periwinkle */
+   background: -webkit-linear-gradient(#9bb0fa, #464a7d); /* periwinkle to background blue */
+   background: -moz-linear-gradient(#9bb0fa, #464a7d); /* periwinkle to background blue */
+   background: linear-gradient(#9bb0fa, #464a7d); /* periwinkle to background blue */
+   padding: 0;
+   margin: 0;
+   font: 400 16px/44px Raleway, sans-serif;
+   letter-spacing: .5px;
+   text-transform: uppercase;
+   text-align: center;
+}
+.nav li {
+   display: inline-block;
+   margin: 30px 10px 15px 10px;
+   /*vertical-align: center;*/
+   color: #bcbdbc;
+}
+.nav li:last-child {
+   margin-right: 0;
+   color: #bcbdbc;
+}
+.current-page {
+   font: 500 20px/20px Raleway, sans-serif;
+   text-shadow: 3px 3px 10px #2e3052; /* darker blue */
+}
